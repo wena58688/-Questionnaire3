@@ -12,22 +12,22 @@
         let targetUrlList = [
             "https://www.surveycake.com/s/wpW1X", //CS/SE
             "https://www.surveycake.com/s/rpvr6", //NCS/SE
-            "https://www.surveycake.com/s/KWOvR", //CS/NSE
+            //"https://www.surveycake.com/s/KWOvR", //CS/NSE
             "https://www.surveycake.com/s/WQlbD"  //NCS/NSE
         ];
 
         let ans = getRandomInt(100);
         // console.log(ans);
 
-        if(ans < 28){
+        if(ans < 30){
             location.href = "https://www.surveycake.com/s/wpW1X"; //CS/SE
         } 
-        else if(ans < 57){
+        else if(ans < 70){
             location.href = "https://www.surveycake.com/s/rpvr6"; //NCS/SE
         }
-        else if(ans < 72){
-            location.href = "https://www.surveycake.com/s/KWOvR"; //CS/NSE
-        }
+        //else if(ans < 72){
+        //    location.href = "https://www.surveycake.com/s/KWOvR"; //CS/NSE
+        //}
         else {
             location.href = "https://www.surveycake.com/s/WQlbD"; //NCS/NSE
         }
